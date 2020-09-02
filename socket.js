@@ -23,8 +23,9 @@ wss.on('connection', function connection(ws, req) {
     //     client.send(data);
     //   }
     // });
-
-    if (receiverSocket.readyState === WebSocket.OPEN) {
+    if (receiverSocket === undefined) {
+	console.log ('Reciever user -> ' + message.toUser + ' is unavailable');
+    } else if (receiverSocket.readyState === WebSocket.OPEN) {
       
       console.log('Reciever user -> ' + message.toUser + ' online.');
       receiverSocket.send(data);

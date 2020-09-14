@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ankur0102/socket-server#readme",
   "dependencies": {
     "ws": "^7.3.1"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }

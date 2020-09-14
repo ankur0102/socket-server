@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node socket.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/ankur0102/socket-server#readme",
   "dependencies": {
     "ws": "^7.3.1"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }

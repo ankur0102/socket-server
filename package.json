@@ -1,22 +1,30 @@
 {
   "name": "socket-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Socket for thunder chat",
   "main": "index.js",
   "scripts": {
+    "start": "node socket.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ankur0102/socket-server.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "ankur.s0102@gmail.com",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ankur0102/socket-server/issues"
   },
   "homepage": "https://github.com/ankur0102/socket-server#readme",
   "dependencies": {
     "ws": "^7.3.1"
-  }
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "socket"
+  ]
 }
